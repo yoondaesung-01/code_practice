@@ -6,3 +6,5 @@
 ## 📂 폴더 구조
 - **Python**: 백준 알고리즘 문제 풀이 (Python)
 - **PostgreSQL**: LeetCode & solveSQL 문제 풀이 (PostgreSQL)
+
+※ 2026-01-09부터 PostgreSQL에서 MYSQL로 변경(프로그래머스)
