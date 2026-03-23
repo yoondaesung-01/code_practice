@@ -1,5 +1,3 @@
 def solution(my_string):
-    answer = my_string.lower()
-    answer = sorted(answer)
-    answer = ''.join(answer)
+    answer = ''.join(sorted(my_string.lower()))
     return answer
