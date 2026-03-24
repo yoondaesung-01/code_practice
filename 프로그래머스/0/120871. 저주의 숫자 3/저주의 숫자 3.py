@@ -1,12 +1,10 @@
 def solution(n):
-    answer = 0
-    temp = []
-    for i in range(1, 300):
-        if i%3==0 or str(i).find("3")!=-1:
-            i+=1
-        else:
-            temp.append(i)
-        if len(temp) == n:
-            break
-    answer = temp.pop()
+    answer, count = 0, 0
+    
+    while count < n:
+        answer += 1 
+        if answer % 3 == 0 or '3' in str(answer):
+            continue
+        count += 1
+        
     return answer
