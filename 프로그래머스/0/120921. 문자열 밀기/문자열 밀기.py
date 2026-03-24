@@ -1,6 +1,5 @@
 def solution(A, B):
-    answer = -1
-    count = 0
+    answer = 0
     def function(list):
         temp = []
         temp.append(list[len(list)-1])
@@ -10,7 +9,7 @@ def solution(A, B):
         return temp
     for i in range(len(A)):
         if A == B:
-            return count
+            return answer
         A = function(list(A))
-        count += 1
-    return answer
+        answer += 1
+    return -1
